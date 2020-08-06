@@ -1,0 +1,81 @@
+body {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+fieldset {
+	margin: 0;
+	border-radius: 0.4em;
+}
+
+.container {
+	max-width: 800px;
+	padding: 1em;
+}
+
+.form-section {
+	padding: 10px 0;
+}
+
+.rendered {
+	line-height: 2.8;
+}
+
+.warn-msg {
+	background: rgba(255, 0, 0, 0.15);
+	padding: 0.4em 0.6em;
+	border-radius: 0.4em;
+}
+
+rt {
+	font-size: 0.8em;
+	color: rgb(111, 137, 177);
+}
+
+.dark {
+	rt {
+		color: rgb(149, 171, 206);
+	}
+}
+
+textarea.input {
+	background: transparent;
+	border: 1px solid #aaa;
+	min-height: 9em;
+	line-height: 1.5;
+	resize: none;
+}
+
+textarea.html-src {
+	min-height: 8.8em;
+	font-size: 0.8em;
+	font-family: monospace, 'Microsoft YaHei', '微软雅黑', '微軟雅黑';
+	resize: none;
+}
+
+.color-scheme-switcher-container {
+	display: flex;
+	justify-content: flex-end;
+
+	.color-scheme-switcher {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2em;
+		height: 2em;
+		margin: 0;
+		padding: 0;
+		border-radius: 1em;
+
+		&:not(:hover) {
+			background: none;
+		}
+	}
+}
+
+textarea {
+	width: 100%;
+}
